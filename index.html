@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio Website - Showcasing my projects, experience, and skills">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li class="nav-item"><a href="#cv-section" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home/Introduction Section -->
+    <section id="home" class="home">
+        <div class="home-container">
+            <div class="home-content">
+                <h1 class="home-title">Hi, I'm <span class="highlight">SK NOIM UDDIN</span></h1>
+                <p class="home-subtitle">STEEL DETAILING ENGINEER</p>
+                <p class="home-description">
+                    Experienced SDS/2 Erection Detailer focused on producing high-quality erection drawings including plans, elevations, details, and sequencing required for field installation. Proficient in modeling member placements, elevations, field bolts, anchor bolt layouts, and erection aids. Skilled in reviewing model conflicts, verifying clearances, and ensuring all field-related details meet AISC erection standards. Effective communication with project managers and erectors to resolve site-related issues.
+                </p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="#" id="download-cv" class="btn btn-cv" style="display: none;">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="home-image">
+                <div class="image-container">
+                    <img id="profile-image" src="" alt="Profile Picture" class="profile-image" style="display: none;">
+                    <div class="image-placeholder" id="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="image-upload-overlay">
+                        <label for="image-upload" class="upload-label">
+                            <i class="fas fa-camera"></i>
+                            <span>Upload Photo</span>
+                        </label>
+                        <input type="file" id="image-upload" accept="image/*" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        SDS/2 Erection Detailer specializing in accurate erection plans, conflict-free modeling, and AISC-compliant field details. Strong coordination with PMs and erectors for smooth site installation.”
+                    </p>
+                    <p>
+                        You can add multiple paragraphs to provide more context about your journey, 
+                        your values, and what you're looking for in your career.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - Present</span>
+                        <h3 class="timeline-title">STEEL DETAILING ENGINEER</h3>
+                        <h4 class="timeline-company">RYDBERG ENGINEERING</h4>
+                        <p class="timeline-description">
+                            Experienced SDS/2 Erection Detailer focused on producing high-quality erection drawings including plans, elevations, details, and sequencing required for field installation. Proficient in modeling member placements, elevations, field bolts, anchor bolt layouts, and erection aids. Skilled in reviewing model conflicts, verifying clearances, and ensuring all field-related details meet AISC erection standards. Effective communication with project managers and erectors to resolve site-related issues.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"></span>
+                        <h3 class="timeline-title"></h3>
+                        <h4 class="timeline-company"></h4>
+                        <p class="timeline-description">
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date"></span>
+                        <h3 class="timeline-title"></h3>
+                        <h4 class="timeline-company"></h4>
+                        <p class="timeline-description">
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="education-degree">Bachelor of Engineering in Civil Engineering</h3>
+                    <h4 class="education-institution">JADAVPUR UNIVERSITY</h4>
+                    <p class="education-year">2018 - 2022</p>
+                    <p class="education-description">
+                        Completed Bachelor of Engineering in Civil Engineering with a focus on structural engineering and construction management.
+                    </p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3 class="education-degree">High School</h3>
+                    <h4 class="education-institution">BURDWAN HIGH MADRASAH</h4>
+                    <p class="education-year">2016 - 2018</p>
+                    <p class="education-description">
+                        Completed high school with focus on mathematics and science.Participated in various tech clubs.
+                    </p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3 class="education-degree"></h3>
+                    <h4 class="education-institution">DHARENDRA HIGH SCHOOL</h4>
+                    <p class="education-year">2015 - 2016</p>
+                    <p class="education-description">
+                        Completed high school with focus on mathematics and science. Participated in various coding competitions and tech clubs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Programming Languages</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">SDS/2</span>
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Steel Design Software</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">STAAD PRO</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Steel Erection Software</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">SDS/2</span>
+                        <span class="skill-tag">AutoCAD</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Other Software</h3>
+                    <div class="skills-list">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">PowerPoint</span>
+                        <span class="skill-tag">PowerBI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 1</h3>
+                        <p class="project-description">
+                            A brief description of your project. Explain what it does, 
+                            the technologies used, and what problem it solves.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 2</h3>
+                        <p class="project-description">
+                            A brief description of your project. Explain what it does, 
+                            the technologies used, and what problem it solves.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Project Name 3</h3>
+                        <p class="project-description">
+                            A brief description of your project. Explain what it does, 
+                            the technologies used, and what problem it solves.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="certification-name">Certification Name 1</h3>
+                    <p class="certification-issuer">Issuing Organization</p>
+                    <p class="certification-date">Issued: Month Year</p>
+                    <a href="#" class="certification-link" target="_blank">View Certificate</a>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="certification-name">Certification Name 2</h3>
+                    <p class="certification-issuer">Issuing Organization</p>
+                    <p class="certification-date">Issued: Month Year</p>
+                    <a href="#" class="certification-link" target="_blank">View Certificate</a>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="certification-name">Certification Name 3</h3>
+                    <p class="certification-issuer">Issuing Organization</p>
+                    <p class="certification-date">Issued: Month Year</p>
+                    <a href="#" class="certification-link" target="_blank">View Certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Upload Section -->
+    <section id="cv-section" class="cv-section">
+        <div class="container">
+            <h2 class="section-title">Resume / CV</h2>
+            <div class="cv-upload-container">
+                <div class="cv-upload-box">
+                    <div class="cv-upload-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Upload Your CV/Resume</h3>
+                    <p>Upload your CV in PDF format to make it available for download</p>
+                    <label for="cv-upload" class="cv-upload-btn">
+                        <i class="fas fa-upload"></i>
+                        <span>Choose PDF File</span>
+                    </label>
+                    <input type="file" id="cv-upload" accept=".pdf" style="display: none;">
+                    <div id="cv-status" class="cv-status"></div>
+                    <div id="cv-preview" class="cv-preview" style="display: none;">
+                        <i class="fas fa-file-pdf"></i>
+                        <span id="cv-filename"></span>
+                        <button id="remove-cv" class="remove-cv-btn">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">
+                I'm always open to discussing new opportunities, interesting projects, or just having a chat!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-item" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>sknoim023@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>https://www.linkedin.com/in/sk-noim-uddin-ab2663322?utm_source=share_via&utm_content=profile&utm_medium=member_android</p>
+                    </div>
+                </a>
+                <a href="https://github.com/yourusername" class="contact-item" target="_blank">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>https://github.com/sknoim023-beep</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SK NOIM UDDIN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
